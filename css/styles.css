@@ -6,3 +6,9 @@ body {
   color: #163152;
   background-color: #fdfdff;
 }
+
+/* header */
+
+.page-header {
+  margin-bottom: 40px;
+}
