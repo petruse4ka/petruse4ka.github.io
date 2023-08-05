@@ -6,10 +6,70 @@ body {
   line-height: 24px;
   color: #163152;
   background-color: #fdfdff;
+  width: 100%;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* header */
 
 .page-header {
-  margin-bottom: 40px;
+  height: 550px;
+  background: url("../img/wheat-back.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-top {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+img.logo {
+  float: left;
+  margin-right: 50px;
+  height: 76px;
+  width: 140px;
+}
+
+.main-nav{
+  float: right;
+  width: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+}
+
+.nav-menu ul {
+  height: 76px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.nav-menu li {
+  display: inline-block;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-justify: left;
+}
+
+ul.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+  line-height: 70px;
+  text-align: center;
 }
