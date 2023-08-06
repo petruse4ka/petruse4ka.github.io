@@ -30,9 +30,29 @@ h1 {
 
 h3 {
   color: black;
+  padding: 0;
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
+}
+
+h2 {
+  color: black;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  border: 2px solid #834700;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
 }
 
 /* header */
@@ -117,6 +137,133 @@ img.logo {
 }
 
 
+/* new */
+
+.new {
+  margin-top: 80px;
+  margin-bottom: 110px;
+}
+
+.new h2{
+  margin-bottom: 75px;
+}
+
+.new h3{
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.new-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.new-list li {
+  display: inline-block;
+  width: 334px;
+  padding-right: 30px;
+  padding-left: 34px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.new-list li:last-child {
+  border-left: none;
+  width: 331px;
+}
+
+.higher-section {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.new-table {
+  width: 150px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.char-table {
+  border-collapse: collapse; 
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.char-table td {
+  border: 1px solid #e5e5e5;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px; 
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.new-details {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.higher-section img {
+  width: 319px;
+  height: 459px;
+  padding-left: 10px;
+}
+
+.new-description {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.new-buttons {
+  float: left;
+}
+
+.new-price {
+  float: left;
+  margin-left: 25px;
+  margin-top: 2px; 
+}
+
+.price {
+  font-weight: bold;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.more {
+  color: #7a5118;
+}
+
+.more:hover {
+  border-color: #522d00;
+  color: #522d00;
+}
+
+.more:active {
+  border-color: #522d0044;
+  color: #522d0044;
+}
+
+.buy {
+  color: white;
+  background-color: #7a5118;
+}
+
+.buy:hover {
+  border-color: #522d00;
+  background-color: #522d00;
+}
+
+.buy:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 /* features */
 
 .container-wide {
@@ -125,14 +272,14 @@ img.logo {
 
 .features {
   background-color: #ffcb78;
-  padding-top: 80px;
-  padding-bottom: 50px;
 }
 
 .features-list {
   display: inline-block;
   margin: 0;
   padding: 0;
+  padding-top: 80px;
+  padding-bottom: 90px;
   list-style-type: none;
 }
 
@@ -185,4 +332,8 @@ img.logo {
   left: 95px;
   top: 0;
   background: url("../img/icon-thumbsup.png") no-repeat;
+}
+
+.features-item h3 {
+  margin-top: 20px;
 }
