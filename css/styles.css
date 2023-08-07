@@ -141,7 +141,7 @@ img.logo {
 
 .new {
   margin-top: 80px;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
 }
 
 .new h2{
@@ -167,9 +167,10 @@ img.logo {
   padding-left: 34px;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
+  margin-bottom: 50px;
 }
 
-.new-list li:last-child {
+.new-list li:nth-child(2n) {
   border-left: none;
   width: 331px;
 }
@@ -336,4 +337,56 @@ img.logo {
 
 .features-item h3 {
   margin-top: 20px;
+}
+
+/* history */
+
+.history {
+  padding: 80px 0;
+}
+
+.history-article {
+  margin-top: 60px;
+}
+
+.article-head h3 {
+  float: left;
+  width: 500px;
+  margin-right: 30px;
+}
+
+.article-head i {
+  float: right;
+}
+
+.article-main {
+  margin-top: 20px;
+}
+
+.article-main p {
+  float: left;
+  width: 500px;
+  margin-right: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.article-main img {
+  float: right;
+  width: 200px;
+  height: 101px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.source {
+  color: #834700;
+}
+
+.source:hover {
+  color: #5e3300;
+}
+
+.source:active {
+  color: #8348007c;
 }
