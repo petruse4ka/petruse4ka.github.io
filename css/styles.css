@@ -545,6 +545,9 @@ td.first-column span {
   float: left;
   width: 200px;
   margin-left: 91px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
 }
 
 .developer {
@@ -552,4 +555,43 @@ td.first-column span {
   margin-left: 40px;
   width: 300px;
   margin-left: 200px;
+  position: relative;
+}
+
+.developer::after {
+  content: "";
+  background-image: url("../img/htmlacademy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+.developer p,
+.developer a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+}
+
+.developer p {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.developer a {
+  text-decoration: none;
+}
+
+.developer a:hover {
+  color: #696969;
+}
+
+.developer a:active {
+  color: #6969699d;
 }
