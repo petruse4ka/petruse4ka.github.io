@@ -390,3 +390,70 @@ img.logo {
 .source:active {
   color: #8348007c;
 }
+
+/* press */
+
+.press {
+  background-color: #ede5d8;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.press blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 75px;
+  width: 690px;
+  margin-bottom: 35px;
+}
+
+.press blockquote::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/quotes.png");
+  background-repeat: no-repeat;
+  top: 5px;
+  left: -105px;
+  width: 41px;
+  height: 31px;
+}
+
+.press-cite cite {
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+.press-cite a {
+  float: left;
+  margin-right: 45px;
+  color: #bcb6ab;
+  border: 2px solid #a5a097;
+}
+
+.press-cite a:hover {
+  color: white;
+  background-color: #a5a097;
+}
+
+.press-cite a:active {
+  color: rgba(255, 255, 255, 0.3);
+  border-color: #858179;
+  background-color: #858179;
+}
+
+/* pricelist */
+
+.pricelist {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.pricelist-table tr {
+  border-bottom: 1px solid #e5e5e5;
+}
