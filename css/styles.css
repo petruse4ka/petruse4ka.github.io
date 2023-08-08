@@ -15,6 +15,10 @@ body {
   margin-right: auto;
 }
 
+.container-wide {
+  width: 1020px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -267,10 +271,6 @@ img.logo {
 
 /* features */
 
-.container-wide {
-  width: 1020px;
-}
-
 .features {
   background-color: #ffcb78;
 }
@@ -508,4 +508,48 @@ td.first-column span {
 .pricelist-table td.last-column,
 .pricelist-table th.last-column {
   text-align: right;
+}
+
+/* order-form */
+
+.order-form {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  background-color: #ffcb78;
+}
+
+/* main-footer */
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: black;
+}
+
+.footer-logo {
+  float: left;
+  margin-left: 37px;
+}
+
+.main-footer .nav-menu {
+  float: right;
+  margin-right: 107px;
+  margin-top: 7px;
+}
+
+.socials {
+  float: left;
+}
+
+.copyrights {
+  float: left;
+  width: 200px;
+  margin-left: 91px;
+}
+
+.developer {
+  float: right;
+  margin-left: 40px;
+  width: 300px;
+  margin-left: 200px;
 }
