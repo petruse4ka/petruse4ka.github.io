@@ -510,12 +510,93 @@ td.first-column span {
   text-align: right;
 }
 
-/* order-form */
+/* ordering */
 
-.order-form {
+.ordering {
   padding-top: 80px;
   padding-bottom: 110px;
   background-color: #ffcb78;
+}
+
+.form-description {
+  width: 660px;
+  margin-top: 75px;
+  margin-bottom: 70px;
+}
+
+.order-form {
+  width: 630px;
+}
+
+.order-form label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.order-form input,
+.order-form textarea {
+  box-sizing: border-box;
+  width: 630px;
+  margin-bottom: 25px;
+  padding: 15px 10px 15px 20px;
+  background-color: #e0b46b;
+  border: none;
+}
+
+.tel-one {
+  width: 290px;
+  float: left;
+}
+
+.tel-two {
+  width: 290px;
+  float: right;
+}
+
+div.telephone input {
+  box-sizing: border-box;
+  width: 290px;
+}
+
+.order-form input:focus,
+.order-form textarea:focus,
+.order-form select:focus {
+  background-color: #ecdabd;
+  border: none;
+  outline: none;
+}
+
+.order-form select {
+  width: 630px;
+  margin-bottom: 25px;
+  padding: 15px 0 15px 20px;
+  background-color: #e0b46b;
+  border: none;
+}
+
+.order-form input[type="checkbox"] {
+  width: auto;
+  vertical-align: top;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+
+.order {
+  color: white;
+  background-color: #7a5118;
+}
+
+.order:hover {
+  border-color: #522d00;
+  background-color: #522d00;
+}
+
+.order:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /* main-footer */

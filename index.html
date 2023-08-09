@@ -200,18 +200,22 @@
         </div>
       </section>
 
-      <section class="order-form">
+      <section class="ordering">
         <div class="container">
           <h2>Заказать</h2>
-          <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%</p>
-          <form action="" method="get">
+          <p class="form-description">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%</p>
+          <form class="order-form" action="" method="get">
             <label for="name">Представьтесь:</label>
             <input type="text" id="name" name="name">
-            <div class="telephone">
-              <label for="tel">Номер телефона:</label>
-              <input type="text" id="tel" name="tel">
-              <label for="extra-tel">Доп. номер:</label>
-              <input type="text" id="extra-tel" name="extra-tel">
+            <div class="telephone clearfix">
+              <div class="tel-one">
+                <label for="tel">Номер телефона:</label>
+                <input type="text" id="tel" name="tel">
+              </div>
+              <div class="tel-two">
+                <label for="extra-tel">Доп. номер:</label>
+                <input type="text" id="extra-tel" name="extra-tel">
+              </div>
             </div>
             <label for="email">E-mail:</label>
             <input type="text" id="email" name="email">
@@ -228,7 +232,7 @@
             <label for="comment">Доп. комментарий:</label>
             <textarea id="comment" name="comment" rows="5" cols="100"></textarea>
             <input type="checkbox" id="agreement" name="agreement" checked>
-            <label for="agreement">Я согласен получать квасную рассылку</label>
+            <label class="agree" for="agreement">Я согласен получать квасную рассылку</label>
           </form>
           <a class="button order" href="#">Отправить заказ</a>
         </div>
