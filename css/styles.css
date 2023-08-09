@@ -529,6 +529,7 @@ td.first-column span {
 .footer-logo {
   float: left;
   margin-left: 37px;
+  height: 76px;
 }
 
 .main-footer .nav-menu {
@@ -537,9 +538,73 @@ td.first-column span {
   margin-top: 7px;
 }
 
+.footer-bottom {
+  margin-top: 47px;
+}
+
 .socials {
   float: left;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  border-collapse: collapse;
 }
+
+.socials li {
+  margin: 0;
+  padding: 0;
+  margin-left: -1px;
+}
+
+.socials a {
+  position: relative;
+}
+
+a.Instagram  {
+  font-size: 0;
+  display: inline-block;
+  background-image: url("../img/icon-insta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+a.Facebook  {
+  font-size: 0;
+  display: inline-block;
+  background-image: url("../img/icon-fb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+a.Vkontakte  {
+  font-size: 0;
+  display: inline-block;
+  background-image: url("../img/icon-vk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+.socials a:hover {
+  border-color: rgba(255, 203, 120, 0.3);
+  z-index: 10;
+}
+
+.socials a:active {
+  opacity: 0.7;
+  }
 
 .copyrights {
   float: left;
@@ -554,7 +619,7 @@ td.first-column span {
   float: right;
   margin-left: 40px;
   width: 300px;
-  margin-left: 200px;
+  margin-left: 150px;
   position: relative;
 }
 
@@ -564,12 +629,16 @@ td.first-column span {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 0;
   width: 70px;
   height: 66px;
   background-color: #1b1b1b;
   border: 1px solid rgba(255, 203, 120, 0.1);
+}
+
+.developer:hover::after {
+  border-color: rgba(255, 203, 120, 0.3);
 }
 
 .developer p,
@@ -582,6 +651,7 @@ td.first-column span {
 .developer p {
   margin-top: 25px;
   margin-left: 30px;
+  text-align: right;
 }
 
 .developer a {
