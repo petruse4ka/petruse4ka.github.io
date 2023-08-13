@@ -21,6 +21,10 @@ body {
   width: 1020px;
 }
 
+.container-wide2 {
+  width: 1015px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -831,5 +835,76 @@ body.body2 {
 
 .nav-menu2 a:active {
   color: rgba(255, 203, 120, 0.3);
+}
+
+/* features */
+
+.features2 {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background-color: #ffcb78;
+}
+
+.features-list2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 240px; 
+}
+
+.features-list2 li {
+  position: relative;
+  border-right: 1px solid #e5b66c;
+  padding-right: 95px;
+  padding-left: 95px;
+  width: 210px;
+}
+
+.cook2::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icon-brew.png");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  height: 68px;
+  width: 50px;
+}
+
+.self-made2::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icon-matreshka.png");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 95px;
+  height: 65px;
+  width: 46px;
+}
+
+.hq2::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/icon-thumbsup.png");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 95px;
+  height: 58px;
+  width: 63px;
+}
+
+.features-item2 h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.features-list2 li:nth-child(3n) {
+  border-right: none;
+  padding-right: 0;
+}
+
+.features-list2 li:nth-child(3n - 2) {
+  padding-left: 0;
 }
 
