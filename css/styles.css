@@ -754,6 +754,12 @@ a.Vkontakte  {
 }
 
 /** Home page style v2 **/
+/** Home page style v2 **/
+/** Home page style v2 **/
+/** Home page style v2 **/
+/** Home page style v2 **/
+/** Home page style v2 **/
+/** Home page style v2 **/
 
 body.body2 {
   margin: 0;
@@ -766,7 +772,15 @@ body.body2 {
   width: 100%;
 }
 
-/* header */
+.button2 {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #a5a097;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+/* header v2 */
 
 .page-header2 {
   padding-top: 60px;
@@ -837,7 +851,7 @@ body.body2 {
   color: rgba(255, 203, 120, 0.3);
 }
 
-/* features */
+/* features v2 */
 
 .features2 {
   padding-top: 80px;
@@ -908,3 +922,62 @@ body.body2 {
   padding-left: 0;
 }
 
+/* press v2 */
+
+.press2 {
+  background-color: #ede5d8;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.press2 h2 {
+  margin-bottom: 75px;
+}
+
+.press2 blockquote {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+  width: 690px;
+  position: relative;
+}
+
+.press2 blockquote::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/quotes.png");
+  width: 41px;
+  height: 31px;
+  top: 5px;
+  left: -105px;
+}
+
+.press-footer2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.press-footer2 cite {
+  font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    font-style: normal;
+    align-self: center;
+}
+
+.read-more2 {
+  color: #bcb6ab;
+}
+
+.read-more2:hover {
+  color: white;
+  background-color: #a5a097;
+}
+
+.read-more2:active {
+  color: rgba(255, 255, 255, 0.3);
+  border-color: #858179;
+  background-color: #858179;
+}
