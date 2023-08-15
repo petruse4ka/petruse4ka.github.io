@@ -21,10 +21,6 @@ body {
   width: 1020px;
 }
 
-.container-wide2 {
-  width: 1015px;
-}
-
 .clearfix::after {
   content: "";
   display: table;
@@ -780,6 +776,10 @@ body.body2 {
   font-weight: bold;
 }
 
+.container-wide2 {
+  width: 1015px;
+}
+
 /* header v2 */
 
 .page-header2 {
@@ -980,4 +980,110 @@ body.body2 {
   color: rgba(255, 255, 255, 0.3);
   border-color: #858179;
   background-color: #858179;
+}
+
+/* footer v2 */
+
+.main-footer2 {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.footer-top2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-top2 img {
+  margin-right: 125px;
+}
+
+.footer-bottom2 {
+  display: flex;
+  margin-top: 47px;
+}
+
+.socials2 {
+  margin: 0;
+  padding: 0;
+  margin-right: 91px;
+  display: flex;
+  list-style-type: none;
+  font-size: 0;
+}
+
+.socials2 a {
+  display: block;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+  margin-left: -1px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.socials2 a:hover {
+  border-color: rgba(255, 203, 120, 0.3);
+  position: relative;
+}
+
+.socials2 a:active {
+  opacity: 0.3;
+}
+
+.Instagram2 {
+  background-image: url("../img/icon-insta.png");
+}
+
+.Facebook2 {
+  background-image: url("../img/icon-fb.png");
+}
+
+.Vkontakte2 {
+  background-image: url("../img/icon-vk.png");
+}
+
+.copyrights2 {
+  width: 200px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+  margin: 0;
+  align-self: center;
+}
+
+.webdeveloper2 {
+  position: relative;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+  align-self: center;
+}
+
+.webdeveloper2 a {
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+  text-decoration: none;
+}
+
+.webdeveloper2::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 66px;
+  background-color: #1b1b1b;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/htmlacademy.png");
+  top: -25px;
+  left: -100px;
+}
+
+.webdeveloper2:hover::before {
+  border-color: rgba(255, 203, 120, 0.3);
 }
