@@ -1149,6 +1149,75 @@ body.body2 {
   background-color: #858179;
 }
 
+/* pricelist v2 */
+
+.pricelist2 {
+  padding: 90px 0;
+}
+
+.pricelist2 h2 {
+  margin-bottom: 75px;
+}
+
+.pricelist-table2 {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+.pricelist-table2 th {
+  font-size: 11px;
+  text-align: left;
+  color: #999999;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30px;
+  font-weight: normal;
+}
+
+.second-column2 {
+  width: 90px;
+}
+
+.third-column2 {
+  width: 60px;
+}
+
+.pricelist-table2 td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 17px 0;
+}
+
+.pricelist-table2 td:last-of-type,
+.pricelist-table2 th:last-of-type {
+  text-align: right;
+}
+
+.first-column2 {
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.new-product2 {
+  background-color: black;
+  padding: 2px 5px;
+  color: white;
+  font-size: 8px;
+  line-height: 30px;
+  border-radius: 2px;
+  margin-left: 20px;
+  vertical-align: super;
+}
+
+/* ordering v2 */
+
+.ordering2 {
+padding-top: 80px;
+padding-bottom: 110px;
+background-color: #ffcb78;
+}
+
 /* footer v2 */
 
 .main-footer2 {
