@@ -1218,6 +1218,95 @@ padding-bottom: 110px;
 background-color: #ffcb78;
 }
 
+.form-description2 {
+  margin-top: 75px;
+  margin-bottom: 70px;
+  width: 660px;
+}
+
+.order-form2 {
+  width: 630px;
+}
+
+.order-form2 label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.order-form2 input,
+.order-form2 textarea {
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.order-form2 select {
+  width: 630px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.order-form2 input,
+.order-form2 textarea, 
+.order-form2 select {
+  padding: 15px 10px 15px 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.order-form2 textarea {
+  height: 90px;
+  resize: none;
+}
+
+.order-form2 input[type=checkbox] {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.telephone-block2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.telephone2 input {
+  width: 260px;
+}
+
+.agree2 {
+  display: inline;
+}
+
+.order2 {
+  margin-top: 40px;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #834700;
+  border: 2px solid #834700;
+}
+
+.order2:hover {
+  background-color: #6a3900;
+  border-color: #6a3900;
+}
+
+.order2:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5c3200;
+  border-color: #5c3200;
+}
+
+
 /* footer v2 */
 
 .main-footer2 {
